@@ -1,0 +1,168 @@
+@import './meyer-reset.css';
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+nav {
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    padding-left: 10px;
+    height: 50px;
+}
+
+.links a{
+    padding: 1em;
+    color: seashell;
+}
+
+.missionBlock {
+    display: flex;
+    justify-content: center;
+    background-image: url("/imgAssets/img-mission-background.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.missionStatement {
+    display: flex;
+    flex-flow: column;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 0px;
+}
+
+.missionBlock h2, .monthTea h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.missionBlock h4, .monthTea h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 3;
+}
+
+.monthTea {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.monthTea h2, .monthTea h4 {
+    display: flex;
+    margin: 0 auto;
+}
+
+.monthTeaPics {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.monthTeaPics img {
+    display: inline-flex;
+    flex-flow: row;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.tea {
+    display:flex;
+    flex-flow: column;
+}
+
+.tea h4{
+    display: flex;
+    text-align: center;
+}
+
+.locationContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("../imgAssets/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    padding-top: 100px;
+    padding-bottom: 15px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.locations {
+    display: flex;
+    text-align: center;
+}
+.location {
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    opacity: 1;
+    margin: 0 40px;
+}
+
+.location h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.location h4 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 3;
+    padding: 0 3px;
+}
+
+.cozyClosing {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.cozyClosing h2 {
+    padding: 15px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.cozyClosing h5 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 15px;
+}
+
+.footerContainer {
+    padding: 0 20px 20px;
+}
